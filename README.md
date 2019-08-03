@@ -8,5 +8,7 @@
  
  [p1412 小玉买文具](./新手村/p1412.md "小玉买文具")
  
+ [浮点数专讲](./新手村/double.md)
+ 
 -------------------
 ##### ©  copyright  2019-all  ETMRHY  All rights Reserved.
