@@ -1,0 +1,27 @@
+读题可知，这回是除法了
+
+#### 重jian难dan点 ####
+
+1.整数计算（a元b角就是10*a+b角 1元9角就是19角 使用int来定义 主要借助int型会自动舍去小数部分）
+
+代码
+```
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	 int a,b,c;
+	 cin>>a>>b;
+   c=(a*10+b)/19;
+   cout<<c;
+	 return 0;
+}
+```
+
+纯思想，仅解释括号
+```
+c=(a*10+b)/19;   //括号可以改变计算顺序，先算括号内的，在算括号外的【C/C++中没有数学上的中括号和大括号！！！ such：((1+2)-5)*3  在C?C++里这么写是对的！！（此例计算顺序：先1+2，再3-5，最后-2*3）】
+```
+题解结束
+
+© copyright 2019-all ETMRHY All rights Reserved.
